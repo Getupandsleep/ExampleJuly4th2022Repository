@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="46" passed="46" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-16T12:49:47 IST" name="ActiTime Automation" finished-at="2022-09-16T12:55:36 IST" duration-ms="349601">
+    <groups>
+    </groups>
+    <test started-at="2022-09-16T12:49:47 IST" name="ActiTime end to end" finished-at="2022-09-16T12:55:36 IST" duration-ms="349601">
+      <class name="com.sgtesting.testngseleniumautomation.ModifyCustomerTestngSeleniumAutomation">
+        <test-method is-config="true" signature="launchBrowserNavigate()[pri:0, instance:com.sgtesting.testngseleniumautomation.ModifyCustomerTestngSeleniumAutomation@23c30a20]" started-at="2022-09-16T12:53:06 IST" name="launchBrowserNavigate" finished-at="2022-09-16T12:53:11 IST" duration-ms="4378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowserNavigate -->
+        <test-method signature="logIn()[pri:1, instance:com.sgtesting.testngseleniumautomation.ModifyCustomerTestngSeleniumAutomation@23c30a20]" started-at="2022-09-16T12:53:11 IST" name="logIn" finished-at="2022-09-16T12:53:16 IST" duration-ms="5173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+        <test-method signature="minimizeFlyOutWindow()[pri:2, instance:com.sgtesting.testngseleniumautomation.ModifyCustomerTestngSeleniumAutomation@23c30a20]" started-at="2022-09-16T12:53:16 IST" name="minimizeFlyOutWindow" finished-at="2022-09-16T12:53:21 IST" duration-ms="5072" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- minimizeFlyOutWindow -->
+        <test-method signature="createCustomer(java.lang.String)[pri:3, instance:com.sgtesting.testngseleniumautomation.ModifyCustomerTestngSeleniumAutomation@23c30a20]" started-at="2022-09-16T12:53:21 IST" name="createCustomer" data-provider="customerDetails" finished-at="2022-09-16T12:53:34 IST" duration-ms="12547" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Infosys]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCustomer -->
+        <test-method signature="modifyCustomer(java.lang.String)[pri:4, instance:com.sgtesting.testngseleniumautomation.ModifyCustomerTestngSeleniumAutomation@23c30a20]" started-at="2022-09-16T12:53:34 IST" name="modifyCustomer" data-provider="customerDescription" finished-at="2022-09-16T12:53:41 IST" duration-ms="7263" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Infosys is the trusted customer of ours and is in partnership with us since 2007]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifyCustomer -->
+        <test-method signature="deleteCustomer()[pri:5, instance:com.sgtesting.testngseleniumautomation.ModifyCustomerTestngSeleniumAutomation@23c30a20]" started-at="2022-09-16T12:53:41 IST" name="deleteCustomer" finished-at="2022-09-16T12:53:47 IST" duration-ms="6244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteCustomer -->
+        <test-method signature="logOut()[pri:6, instance:com.sgtesting.testngseleniumautomation.ModifyCustomerTestngSeleniumAutomation@23c30a20]" started-at="2022-09-16T12:53:47 IST" name="logOut" finished-at="2022-09-16T12:53:50 IST" duration-ms="3171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method is-config="true" signature="closeWeb()[pri:0, instance:com.sgtesting.testngseleniumautomation.ModifyCustomerTestngSeleniumAutomation@23c30a20]" started-at="2022-09-16T12:53:50 IST" name="closeWeb" finished-at="2022-09-16T12:53:51 IST" duration-ms="546" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWeb -->
+      </class> <!-- com.sgtesting.testngseleniumautomation.ModifyCustomerTestngSeleniumAutomation -->
+      <class name="com.sgtesting.testngseleniumautomation.ModifyProjectTestngSeleniumAutomation">
+        <test-method is-config="true" signature="launchBrowserNavigate()[pri:0, instance:com.sgtesting.testngseleniumautomation.ModifyProjectTestngSeleniumAutomation@1e1a0406]" started-at="2022-09-16T12:53:51 IST" name="launchBrowserNavigate" finished-at="2022-09-16T12:53:55 IST" duration-ms="4371" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowserNavigate -->
+        <test-method signature="logIn()[pri:1, instance:com.sgtesting.testngseleniumautomation.ModifyProjectTestngSeleniumAutomation@1e1a0406]" started-at="2022-09-16T12:53:55 IST" name="logIn" finished-at="2022-09-16T12:54:00 IST" duration-ms="5167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+        <test-method signature="minimizeFlyOutWindow()[pri:2, instance:com.sgtesting.testngseleniumautomation.ModifyProjectTestngSeleniumAutomation@1e1a0406]" started-at="2022-09-16T12:54:00 IST" name="minimizeFlyOutWindow" finished-at="2022-09-16T12:54:06 IST" duration-ms="5073" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- minimizeFlyOutWindow -->
+        <test-method signature="createCustomer(java.lang.String)[pri:3, instance:com.sgtesting.testngseleniumautomation.ModifyProjectTestngSeleniumAutomation@1e1a0406]" started-at="2022-09-16T12:54:06 IST" name="createCustomer" data-provider="customerDetails" finished-at="2022-09-16T12:54:18 IST" duration-ms="12527" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Infosys]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCustomer -->
+        <test-method signature="createProject(java.lang.String)[pri:4, instance:com.sgtesting.testngseleniumautomation.ModifyProjectTestngSeleniumAutomation@1e1a0406]" started-at="2022-09-16T12:54:18 IST" name="createProject" data-provider="projectDetails" finished-at="2022-09-16T12:54:27 IST" duration-ms="9194" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Cloud Computing]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createProject -->
+        <test-method signature="modifyProject(java.lang.String)[pri:5, instance:com.sgtesting.testngseleniumautomation.ModifyProjectTestngSeleniumAutomation@1e1a0406]" started-at="2022-09-16T12:54:27 IST" name="modifyProject" data-provider="projectDescription" finished-at="2022-09-16T12:54:33 IST" duration-ms="6255" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Cloud Computing is one of the project which needs Cloud data to run all apps]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifyProject -->
+        <test-method signature="deleteProject()[pri:6, instance:com.sgtesting.testngseleniumautomation.ModifyProjectTestngSeleniumAutomation@1e1a0406]" started-at="2022-09-16T12:54:33 IST" name="deleteProject" finished-at="2022-09-16T12:54:43 IST" duration-ms="9245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteProject -->
+        <test-method signature="deleteCustomer()[pri:7, instance:com.sgtesting.testngseleniumautomation.ModifyProjectTestngSeleniumAutomation@1e1a0406]" started-at="2022-09-16T12:54:43 IST" name="deleteCustomer" finished-at="2022-09-16T12:54:49 IST" duration-ms="6223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteCustomer -->
+        <test-method signature="logOut()[pri:8, instance:com.sgtesting.testngseleniumautomation.ModifyProjectTestngSeleniumAutomation@1e1a0406]" started-at="2022-09-16T12:54:49 IST" name="logOut" finished-at="2022-09-16T12:54:52 IST" duration-ms="3510" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method is-config="true" signature="closeWeb()[pri:0, instance:com.sgtesting.testngseleniumautomation.ModifyProjectTestngSeleniumAutomation@1e1a0406]" started-at="2022-09-16T12:54:52 IST" name="closeWeb" finished-at="2022-09-16T12:54:53 IST" duration-ms="139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWeb -->
+      </class> <!-- com.sgtesting.testngseleniumautomation.ModifyProjectTestngSeleniumAutomation -->
+      <class name="com.sgtesting.testngseleniumautomation.CreateCustomerTestngSeleniumAutomation">
+        <test-method is-config="true" signature="launchBrowserNavigate()[pri:0, instance:com.sgtesting.testngseleniumautomation.CreateCustomerTestngSeleniumAutomation@3e11f9e9]" started-at="2022-09-16T12:49:47 IST" name="launchBrowserNavigate" finished-at="2022-09-16T12:49:52 IST" duration-ms="5212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowserNavigate -->
+        <test-method signature="logIn()[pri:1, instance:com.sgtesting.testngseleniumautomation.CreateCustomerTestngSeleniumAutomation@3e11f9e9]" started-at="2022-09-16T12:49:52 IST" name="logIn" finished-at="2022-09-16T12:49:57 IST" duration-ms="5194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+        <test-method signature="minimizeFlyOutWindow()[pri:2, instance:com.sgtesting.testngseleniumautomation.CreateCustomerTestngSeleniumAutomation@3e11f9e9]" started-at="2022-09-16T12:49:57 IST" name="minimizeFlyOutWindow" finished-at="2022-09-16T12:50:02 IST" duration-ms="5058" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- minimizeFlyOutWindow -->
+        <test-method signature="createCustomer(java.lang.String)[pri:3, instance:com.sgtesting.testngseleniumautomation.CreateCustomerTestngSeleniumAutomation@3e11f9e9]" started-at="2022-09-16T12:50:02 IST" name="createCustomer" data-provider="customerDetails" finished-at="2022-09-16T12:50:15 IST" duration-ms="12591" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Infosys]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCustomer -->
+        <test-method signature="deleteCustomer()[pri:4, instance:com.sgtesting.testngseleniumautomation.CreateCustomerTestngSeleniumAutomation@3e11f9e9]" started-at="2022-09-16T12:50:15 IST" name="deleteCustomer" finished-at="2022-09-16T12:50:21 IST" duration-ms="6228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteCustomer -->
+        <test-method signature="logOut()[pri:5, instance:com.sgtesting.testngseleniumautomation.CreateCustomerTestngSeleniumAutomation@3e11f9e9]" started-at="2022-09-16T12:50:21 IST" name="logOut" finished-at="2022-09-16T12:50:24 IST" duration-ms="3213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method is-config="true" signature="closeWeb()[pri:0, instance:com.sgtesting.testngseleniumautomation.CreateCustomerTestngSeleniumAutomation@3e11f9e9]" started-at="2022-09-16T12:50:24 IST" name="closeWeb" finished-at="2022-09-16T12:50:24 IST" duration-ms="187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWeb -->
+      </class> <!-- com.sgtesting.testngseleniumautomation.CreateCustomerTestngSeleniumAutomation -->
+      <class name="com.sgtesting.testngseleniumautomation.CreateUserTestngSeleniumAutomation">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.sgtesting.testngseleniumautomation.CreateUserTestngSeleniumAutomation@437da279]" started-at="2022-09-16T12:52:34 IST" name="launchBrowser" finished-at="2022-09-16T12:52:38 IST" duration-ms="4383" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="logIn(java.lang.String,java.lang.String)[pri:1, instance:com.sgtesting.testngseleniumautomation.CreateUserTestngSeleniumAutomation@437da279]" started-at="2022-09-16T12:52:38 IST" name="logIn" data-provider="LoginDetails" finished-at="2022-09-16T12:52:41 IST" duration-ms="3163" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+        <test-method signature="minimizeFlyOutWindow()[pri:2, instance:com.sgtesting.testngseleniumautomation.CreateUserTestngSeleniumAutomation@437da279]" started-at="2022-09-16T12:52:41 IST" name="minimizeFlyOutWindow" finished-at="2022-09-16T12:52:47 IST" duration-ms="5051" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- minimizeFlyOutWindow -->
+        <test-method signature="createUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.sgtesting.testngseleniumautomation.CreateUserTestngSeleniumAutomation@437da279]" started-at="2022-09-16T12:52:47 IST" name="createUser" data-provider="createUserDetails" finished-at="2022-09-16T12:52:57 IST" duration-ms="10200" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ranganath]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Thimmanahalli]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Ranga@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ranga]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method signature="deleteUser()[pri:4, instance:com.sgtesting.testngseleniumautomation.CreateUserTestngSeleniumAutomation@437da279]" started-at="2022-09-16T12:52:57 IST" name="deleteUser" finished-at="2022-09-16T12:53:03 IST" duration-ms="6141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser -->
+        <test-method signature="logOut()[pri:5, instance:com.sgtesting.testngseleniumautomation.CreateUserTestngSeleniumAutomation@437da279]" started-at="2022-09-16T12:53:03 IST" name="logOut" finished-at="2022-09-16T12:53:06 IST" duration-ms="3307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method is-config="true" signature="closeWeb()[pri:0, instance:com.sgtesting.testngseleniumautomation.CreateUserTestngSeleniumAutomation@437da279]" started-at="2022-09-16T12:53:06 IST" name="closeWeb" finished-at="2022-09-16T12:53:06 IST" duration-ms="300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWeb -->
+      </class> <!-- com.sgtesting.testngseleniumautomation.CreateUserTestngSeleniumAutomation -->
+      <class name="com.sgtesting.testngseleniumautomation.CreateProjectTestngSeleniumAutomation">
+        <test-method is-config="true" signature="launchBrowserNavigate()[pri:0, instance:com.sgtesting.testngseleniumautomation.CreateProjectTestngSeleniumAutomation@36916eb0]" started-at="2022-09-16T12:50:24 IST" name="launchBrowserNavigate" finished-at="2022-09-16T12:50:29 IST" duration-ms="4489" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowserNavigate -->
+        <test-method signature="logIn()[pri:1, instance:com.sgtesting.testngseleniumautomation.CreateProjectTestngSeleniumAutomation@36916eb0]" started-at="2022-09-16T12:50:29 IST" name="logIn" finished-at="2022-09-16T12:50:34 IST" duration-ms="5177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+        <test-method signature="minimizeFlyOutWindow()[pri:2, instance:com.sgtesting.testngseleniumautomation.CreateProjectTestngSeleniumAutomation@36916eb0]" started-at="2022-09-16T12:50:34 IST" name="minimizeFlyOutWindow" finished-at="2022-09-16T12:50:39 IST" duration-ms="5067" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- minimizeFlyOutWindow -->
+        <test-method signature="createCustomer(java.lang.String)[pri:3, instance:com.sgtesting.testngseleniumautomation.CreateProjectTestngSeleniumAutomation@36916eb0]" started-at="2022-09-16T12:50:39 IST" name="createCustomer" data-provider="customerDetails" finished-at="2022-09-16T12:50:52 IST" duration-ms="12578" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Infosys]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCustomer -->
+        <test-method signature="createProject(java.lang.String)[pri:4, instance:com.sgtesting.testngseleniumautomation.CreateProjectTestngSeleniumAutomation@36916eb0]" started-at="2022-09-16T12:50:52 IST" name="createProject" data-provider="projectDetails" finished-at="2022-09-16T12:51:01 IST" duration-ms="9213" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Cloud Computing]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createProject -->
+        <test-method signature="deleteProject()[pri:5, instance:com.sgtesting.testngseleniumautomation.CreateProjectTestngSeleniumAutomation@36916eb0]" started-at="2022-09-16T12:51:01 IST" name="deleteProject" finished-at="2022-09-16T12:51:10 IST" duration-ms="9230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteProject -->
+        <test-method signature="deleteCustomer()[pri:6, instance:com.sgtesting.testngseleniumautomation.CreateProjectTestngSeleniumAutomation@36916eb0]" started-at="2022-09-16T12:51:10 IST" name="deleteCustomer" finished-at="2022-09-16T12:51:16 IST" duration-ms="6215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteCustomer -->
+        <test-method signature="logOut()[pri:7, instance:com.sgtesting.testngseleniumautomation.CreateProjectTestngSeleniumAutomation@36916eb0]" started-at="2022-09-16T12:51:16 IST" name="logOut" finished-at="2022-09-16T12:51:20 IST" duration-ms="3223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method is-config="true" signature="closeWeb()[pri:0, instance:com.sgtesting.testngseleniumautomation.CreateProjectTestngSeleniumAutomation@36916eb0]" started-at="2022-09-16T12:51:20 IST" name="closeWeb" finished-at="2022-09-16T12:51:20 IST" duration-ms="183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWeb -->
+      </class> <!-- com.sgtesting.testngseleniumautomation.CreateProjectTestngSeleniumAutomation -->
+      <class name="com.sgtesting.testngseleniumautomation.CreateTasksTestngSeleniumAutomation">
+        <test-method is-config="true" signature="launchBrowserNavigate()[pri:0, instance:com.sgtesting.testngseleniumautomation.CreateTasksTestngSeleniumAutomation@7bab3f1a]" started-at="2022-09-16T12:51:20 IST" name="launchBrowserNavigate" finished-at="2022-09-16T12:51:24 IST" duration-ms="4486" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowserNavigate -->
+        <test-method signature="logIn()[pri:1, instance:com.sgtesting.testngseleniumautomation.CreateTasksTestngSeleniumAutomation@7bab3f1a]" started-at="2022-09-16T12:51:24 IST" name="logIn" finished-at="2022-09-16T12:51:29 IST" duration-ms="5179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+        <test-method signature="minimizeFlyOutWindow()[pri:2, instance:com.sgtesting.testngseleniumautomation.CreateTasksTestngSeleniumAutomation@7bab3f1a]" started-at="2022-09-16T12:51:29 IST" name="minimizeFlyOutWindow" finished-at="2022-09-16T12:51:34 IST" duration-ms="5063" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- minimizeFlyOutWindow -->
+        <test-method signature="createCustomer(java.lang.String)[pri:3, instance:com.sgtesting.testngseleniumautomation.CreateTasksTestngSeleniumAutomation@7bab3f1a]" started-at="2022-09-16T12:51:34 IST" name="createCustomer" data-provider="customerDetails" finished-at="2022-09-16T12:51:47 IST" duration-ms="12529" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Infosys]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCustomer -->
+        <test-method signature="createProject(java.lang.String)[pri:4, instance:com.sgtesting.testngseleniumautomation.CreateTasksTestngSeleniumAutomation@7bab3f1a]" started-at="2022-09-16T12:51:47 IST" name="createProject" data-provider="projectDetails" finished-at="2022-09-16T12:51:56 IST" duration-ms="9219" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Cloud Computing]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createProject -->
+        <test-method signature="createTask(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:com.sgtesting.testngseleniumautomation.CreateTasksTestngSeleniumAutomation@7bab3f1a]" started-at="2022-09-16T12:51:56 IST" name="createTask" data-provider="taskDetails" finished-at="2022-09-16T12:52:09 IST" duration-ms="12586" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Requirement Reading]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test scenario]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Test cases]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[RTM,Review]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Test The App]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTask -->
+        <test-method signature="deleteTasks()[pri:6, instance:com.sgtesting.testngseleniumautomation.CreateTasksTestngSeleniumAutomation@7bab3f1a]" started-at="2022-09-16T12:52:09 IST" name="deleteTasks" finished-at="2022-09-16T12:52:15 IST" duration-ms="6165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteTasks -->
+        <test-method signature="deleteProject()[pri:7, instance:com.sgtesting.testngseleniumautomation.CreateTasksTestngSeleniumAutomation@7bab3f1a]" started-at="2022-09-16T12:52:15 IST" name="deleteProject" finished-at="2022-09-16T12:52:24 IST" duration-ms="9405" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteProject -->
+        <test-method signature="deleteCustomer()[pri:8, instance:com.sgtesting.testngseleniumautomation.CreateTasksTestngSeleniumAutomation@7bab3f1a]" started-at="2022-09-16T12:52:24 IST" name="deleteCustomer" finished-at="2022-09-16T12:52:31 IST" duration-ms="6211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteCustomer -->
+        <test-method signature="logOut()[pri:9, instance:com.sgtesting.testngseleniumautomation.CreateTasksTestngSeleniumAutomation@7bab3f1a]" started-at="2022-09-16T12:52:31 IST" name="logOut" finished-at="2022-09-16T12:52:34 IST" duration-ms="3209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method is-config="true" signature="closeWeb()[pri:0, instance:com.sgtesting.testngseleniumautomation.CreateTasksTestngSeleniumAutomation@7bab3f1a]" started-at="2022-09-16T12:52:34 IST" name="closeWeb" finished-at="2022-09-16T12:52:34 IST" duration-ms="123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWeb -->
+      </class> <!-- com.sgtesting.testngseleniumautomation.CreateTasksTestngSeleniumAutomation -->
+      <class name="com.sgtesting.testngseleniumautomation.ModifyUserTestngSeleniumAutomation">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.sgtesting.testngseleniumautomation.ModifyUserTestngSeleniumAutomation@3cebbb30]" started-at="2022-09-16T12:54:53 IST" name="launchBrowser" finished-at="2022-09-16T12:54:57 IST" duration-ms="4372" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="logIn(java.lang.String,java.lang.String)[pri:1, instance:com.sgtesting.testngseleniumautomation.ModifyUserTestngSeleniumAutomation@3cebbb30]" started-at="2022-09-16T12:54:57 IST" name="logIn" data-provider="LoginDetails" finished-at="2022-09-16T12:55:00 IST" duration-ms="3155" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+        <test-method signature="minimizeFlyOutWindow()[pri:2, instance:com.sgtesting.testngseleniumautomation.ModifyUserTestngSeleniumAutomation@3cebbb30]" started-at="2022-09-16T12:55:00 IST" name="minimizeFlyOutWindow" finished-at="2022-09-16T12:55:05 IST" duration-ms="5085" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- minimizeFlyOutWindow -->
+        <test-method signature="createUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.sgtesting.testngseleniumautomation.ModifyUserTestngSeleniumAutomation@3cebbb30]" started-at="2022-09-16T12:55:05 IST" name="createUser" data-provider="createUserDetails" finished-at="2022-09-16T12:55:14 IST" duration-ms="9197" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ranganath]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Thimmanahalli]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Ranga@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ranga]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method signature="modifyUser(java.lang.String,java.lang.String)[pri:4, instance:com.sgtesting.testngseleniumautomation.ModifyUserTestngSeleniumAutomation@3cebbb30]" started-at="2022-09-16T12:55:14 IST" name="modifyUser" data-provider="modifyUserDetails" finished-at="2022-09-16T12:55:27 IST" duration-ms="12348" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[RanganathGowda]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[KayiThimmanahalli]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifyUser -->
+        <test-method signature="deleteUser()[pri:5, instance:com.sgtesting.testngseleniumautomation.ModifyUserTestngSeleniumAutomation@3cebbb30]" started-at="2022-09-16T12:55:27 IST" name="deleteUser" finished-at="2022-09-16T12:55:33 IST" duration-ms="6131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser -->
+        <test-method signature="logOut()[pri:5, instance:com.sgtesting.testngseleniumautomation.ModifyUserTestngSeleniumAutomation@3cebbb30]" started-at="2022-09-16T12:55:33 IST" name="logOut" finished-at="2022-09-16T12:55:36 IST" duration-ms="3212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method is-config="true" signature="closeWeb()[pri:0, instance:com.sgtesting.testngseleniumautomation.ModifyUserTestngSeleniumAutomation@3cebbb30]" started-at="2022-09-16T12:55:36 IST" name="closeWeb" finished-at="2022-09-16T12:55:36 IST" duration-ms="144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWeb -->
+      </class> <!-- com.sgtesting.testngseleniumautomation.ModifyUserTestngSeleniumAutomation -->
+    </test> <!-- ActiTime end to end -->
+  </suite> <!-- ActiTime Automation -->
+</testng-results>

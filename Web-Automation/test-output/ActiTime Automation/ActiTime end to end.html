@@ -1,0 +1,309 @@
+<html>
+<head>
+<title>TestNG:  ActiTime end to end</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>ActiTime end to end</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>46/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Sep 16 12:49:47 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>349 seconds (349601 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.sgtesting.testngseleniumautomation.ModifyUserTestngSeleniumAutomation.createUser()'><b>createUser</b><br>Test class: com.sgtesting.testngseleniumautomation.ModifyUserTestngSeleniumAutomation<br>Parameters: Ranganath, Thimmanahalli, Ranga@gmail.com, ranga, 12345, 12345</td>
+<td></td>
+<td>9</td>
+<td>com.sgtesting.testngseleniumautomation.ModifyUserTestngSeleniumAutomation@3cebbb30</td></tr>
+<tr>
+<td title='com.sgtesting.testngseleniumautomation.CreateCustomerTestngSeleniumAutomation.minimizeFlyOutWindow()'><b>minimizeFlyOutWindow</b><br>Test class: com.sgtesting.testngseleniumautomation.CreateCustomerTestngSeleniumAutomation</td>
+<td></td>
+<td>5</td>
+<td>com.sgtesting.testngseleniumautomation.CreateCustomerTestngSeleniumAutomation@3e11f9e9</td></tr>
+<tr>
+<td title='com.sgtesting.testngseleniumautomation.CreateCustomerTestngSeleniumAutomation.logOut()'><b>logOut</b><br>Test class: com.sgtesting.testngseleniumautomation.CreateCustomerTestngSeleniumAutomation</td>
+<td></td>
+<td>3</td>
+<td>com.sgtesting.testngseleniumautomation.CreateCustomerTestngSeleniumAutomation@3e11f9e9</td></tr>
+<tr>
+<td title='com.sgtesting.testngseleniumautomation.ModifyUserTestngSeleniumAutomation.logOut()'><b>logOut</b><br>Test class: com.sgtesting.testngseleniumautomation.ModifyUserTestngSeleniumAutomation</td>
+<td></td>
+<td>3</td>
+<td>com.sgtesting.testngseleniumautomation.ModifyUserTestngSeleniumAutomation@3cebbb30</td></tr>
+<tr>
+<td title='com.sgtesting.testngseleniumautomation.CreateProjectTestngSeleniumAutomation.deleteProject()'><b>deleteProject</b><br>Test class: com.sgtesting.testngseleniumautomation.CreateProjectTestngSeleniumAutomation</td>
+<td></td>
+<td>9</td>
+<td>com.sgtesting.testngseleniumautomation.CreateProjectTestngSeleniumAutomation@36916eb0</td></tr>
+<tr>
+<td title='com.sgtesting.testngseleniumautomation.CreateProjectTestngSeleniumAutomation.logIn()'><b>logIn</b><br>Test class: com.sgtesting.testngseleniumautomation.CreateProjectTestngSeleniumAutomation</td>
+<td></td>
+<td>5</td>
+<td>com.sgtesting.testngseleniumautomation.CreateProjectTestngSeleniumAutomation@36916eb0</td></tr>
+<tr>
+<td title='com.sgtesting.testngseleniumautomation.CreateCustomerTestngSeleniumAutomation.logIn()'><b>logIn</b><br>Test class: com.sgtesting.testngseleniumautomation.CreateCustomerTestngSeleniumAutomation</td>
+<td></td>
+<td>5</td>
+<td>com.sgtesting.testngseleniumautomation.CreateCustomerTestngSeleniumAutomation@3e11f9e9</td></tr>
+<tr>
+<td title='com.sgtesting.testngseleniumautomation.ModifyCustomerTestngSeleniumAutomation.createCustomer()'><b>createCustomer</b><br>Test class: com.sgtesting.testngseleniumautomation.ModifyCustomerTestngSeleniumAutomation<br>Parameters: Infosys</td>
+<td></td>
+<td>12</td>
+<td>com.sgtesting.testngseleniumautomation.ModifyCustomerTestngSeleniumAutomation@23c30a20</td></tr>
+<tr>
+<td title='com.sgtesting.testngseleniumautomation.CreateTasksTestngSeleniumAutomation.createTask()'><b>createTask</b><br>Test class: com.sgtesting.testngseleniumautomation.CreateTasksTestngSeleniumAutomation<br>Parameters: Requirement Reading, Test scenario, Test cases, RTM,Review, Test The App</td>
+<td></td>
+<td>12</td>
+<td>com.sgtesting.testngseleniumautomation.CreateTasksTestngSeleniumAutomation@7bab3f1a</td></tr>
+<tr>
+<td title='com.sgtesting.testngseleniumautomation.ModifyProjectTestngSeleniumAutomation.deleteCustomer()'><b>deleteCustomer</b><br>Test class: com.sgtesting.testngseleniumautomation.ModifyProjectTestngSeleniumAutomation</td>
+<td></td>
+<td>6</td>
+<td>com.sgtesting.testngseleniumautomation.ModifyProjectTestngSeleniumAutomation@1e1a0406</td></tr>
+<tr>
+<td title='com.sgtesting.testngseleniumautomation.ModifyProjectTestngSeleniumAutomation.createProject()'><b>createProject</b><br>Test class: com.sgtesting.testngseleniumautomation.ModifyProjectTestngSeleniumAutomation<br>Parameters: Cloud Computing</td>
+<td></td>
+<td>9</td>
+<td>com.sgtesting.testngseleniumautomation.ModifyProjectTestngSeleniumAutomation@1e1a0406</td></tr>
+<tr>
+<td title='com.sgtesting.testngseleniumautomation.CreateTasksTestngSeleniumAutomation.minimizeFlyOutWindow()'><b>minimizeFlyOutWindow</b><br>Test class: com.sgtesting.testngseleniumautomation.CreateTasksTestngSeleniumAutomation</td>
+<td></td>
+<td>5</td>
+<td>com.sgtesting.testngseleniumautomation.CreateTasksTestngSeleniumAutomation@7bab3f1a</td></tr>
+<tr>
+<td title='com.sgtesting.testngseleniumautomation.ModifyUserTestngSeleniumAutomation.deleteUser()'><b>deleteUser</b><br>Test class: com.sgtesting.testngseleniumautomation.ModifyUserTestngSeleniumAutomation</td>
+<td></td>
+<td>6</td>
+<td>com.sgtesting.testngseleniumautomation.ModifyUserTestngSeleniumAutomation@3cebbb30</td></tr>
+<tr>
+<td title='com.sgtesting.testngseleniumautomation.ModifyCustomerTestngSeleniumAutomation.deleteCustomer()'><b>deleteCustomer</b><br>Test class: com.sgtesting.testngseleniumautomation.ModifyCustomerTestngSeleniumAutomation</td>
+<td></td>
+<td>6</td>
+<td>com.sgtesting.testngseleniumautomation.ModifyCustomerTestngSeleniumAutomation@23c30a20</td></tr>
+<tr>
+<td title='com.sgtesting.testngseleniumautomation.CreateCustomerTestngSeleniumAutomation.deleteCustomer()'><b>deleteCustomer</b><br>Test class: com.sgtesting.testngseleniumautomation.CreateCustomerTestngSeleniumAutomation</td>
+<td></td>
+<td>6</td>
+<td>com.sgtesting.testngseleniumautomation.CreateCustomerTestngSeleniumAutomation@3e11f9e9</td></tr>
+<tr>
+<td title='com.sgtesting.testngseleniumautomation.CreateUserTestngSeleniumAutomation.minimizeFlyOutWindow()'><b>minimizeFlyOutWindow</b><br>Test class: com.sgtesting.testngseleniumautomation.CreateUserTestngSeleniumAutomation</td>
+<td></td>
+<td>5</td>
+<td>com.sgtesting.testngseleniumautomation.CreateUserTestngSeleniumAutomation@437da279</td></tr>
+<tr>
+<td title='com.sgtesting.testngseleniumautomation.ModifyCustomerTestngSeleniumAutomation.minimizeFlyOutWindow()'><b>minimizeFlyOutWindow</b><br>Test class: com.sgtesting.testngseleniumautomation.ModifyCustomerTestngSeleniumAutomation</td>
+<td></td>
+<td>5</td>
+<td>com.sgtesting.testngseleniumautomation.ModifyCustomerTestngSeleniumAutomation@23c30a20</td></tr>
+<tr>
+<td title='com.sgtesting.testngseleniumautomation.ModifyProjectTestngSeleniumAutomation.minimizeFlyOutWindow()'><b>minimizeFlyOutWindow</b><br>Test class: com.sgtesting.testngseleniumautomation.ModifyProjectTestngSeleniumAutomation</td>
+<td></td>
+<td>5</td>
+<td>com.sgtesting.testngseleniumautomation.ModifyProjectTestngSeleniumAutomation@1e1a0406</td></tr>
+<tr>
+<td title='com.sgtesting.testngseleniumautomation.ModifyProjectTestngSeleniumAutomation.deleteProject()'><b>deleteProject</b><br>Test class: com.sgtesting.testngseleniumautomation.ModifyProjectTestngSeleniumAutomation</td>
+<td></td>
+<td>9</td>
+<td>com.sgtesting.testngseleniumautomation.ModifyProjectTestngSeleniumAutomation@1e1a0406</td></tr>
+<tr>
+<td title='com.sgtesting.testngseleniumautomation.CreateUserTestngSeleniumAutomation.createUser()'><b>createUser</b><br>Test class: com.sgtesting.testngseleniumautomation.CreateUserTestngSeleniumAutomation<br>Parameters: Ranganath, Thimmanahalli, Ranga@gmail.com, ranga, 12345, 12345</td>
+<td></td>
+<td>10</td>
+<td>com.sgtesting.testngseleniumautomation.CreateUserTestngSeleniumAutomation@437da279</td></tr>
+<tr>
+<td title='com.sgtesting.testngseleniumautomation.CreateProjectTestngSeleniumAutomation.minimizeFlyOutWindow()'><b>minimizeFlyOutWindow</b><br>Test class: com.sgtesting.testngseleniumautomation.CreateProjectTestngSeleniumAutomation</td>
+<td></td>
+<td>5</td>
+<td>com.sgtesting.testngseleniumautomation.CreateProjectTestngSeleniumAutomation@36916eb0</td></tr>
+<tr>
+<td title='com.sgtesting.testngseleniumautomation.CreateUserTestngSeleniumAutomation.logIn()'><b>logIn</b><br>Test class: com.sgtesting.testngseleniumautomation.CreateUserTestngSeleniumAutomation<br>Parameters: admin, manager</td>
+<td></td>
+<td>3</td>
+<td>com.sgtesting.testngseleniumautomation.CreateUserTestngSeleniumAutomation@437da279</td></tr>
+<tr>
+<td title='com.sgtesting.testngseleniumautomation.CreateTasksTestngSeleniumAutomation.deleteTasks()'><b>deleteTasks</b><br>Test class: com.sgtesting.testngseleniumautomation.CreateTasksTestngSeleniumAutomation</td>
+<td></td>
+<td>6</td>
+<td>com.sgtesting.testngseleniumautomation.CreateTasksTestngSeleniumAutomation@7bab3f1a</td></tr>
+<tr>
+<td title='com.sgtesting.testngseleniumautomation.CreateTasksTestngSeleniumAutomation.createProject()'><b>createProject</b><br>Test class: com.sgtesting.testngseleniumautomation.CreateTasksTestngSeleniumAutomation<br>Parameters: Cloud Computing</td>
+<td></td>
+<td>9</td>
+<td>com.sgtesting.testngseleniumautomation.CreateTasksTestngSeleniumAutomation@7bab3f1a</td></tr>
+<tr>
+<td title='com.sgtesting.testngseleniumautomation.ModifyProjectTestngSeleniumAutomation.modifyProject()'><b>modifyProject</b><br>Test class: com.sgtesting.testngseleniumautomation.ModifyProjectTestngSeleniumAutomation<br>Parameters: Cloud Computing is one of the project which needs Cloud data to run all apps</td>
+<td></td>
+<td>6</td>
+<td>com.sgtesting.testngseleniumautomation.ModifyProjectTestngSeleniumAutomation@1e1a0406</td></tr>
+<tr>
+<td title='com.sgtesting.testngseleniumautomation.ModifyProjectTestngSeleniumAutomation.createCustomer()'><b>createCustomer</b><br>Test class: com.sgtesting.testngseleniumautomation.ModifyProjectTestngSeleniumAutomation<br>Parameters: Infosys</td>
+<td></td>
+<td>12</td>
+<td>com.sgtesting.testngseleniumautomation.ModifyProjectTestngSeleniumAutomation@1e1a0406</td></tr>
+<tr>
+<td title='com.sgtesting.testngseleniumautomation.CreateCustomerTestngSeleniumAutomation.createCustomer()'><b>createCustomer</b><br>Test class: com.sgtesting.testngseleniumautomation.CreateCustomerTestngSeleniumAutomation<br>Parameters: Infosys</td>
+<td></td>
+<td>12</td>
+<td>com.sgtesting.testngseleniumautomation.CreateCustomerTestngSeleniumAutomation@3e11f9e9</td></tr>
+<tr>
+<td title='com.sgtesting.testngseleniumautomation.ModifyProjectTestngSeleniumAutomation.logIn()'><b>logIn</b><br>Test class: com.sgtesting.testngseleniumautomation.ModifyProjectTestngSeleniumAutomation</td>
+<td></td>
+<td>5</td>
+<td>com.sgtesting.testngseleniumautomation.ModifyProjectTestngSeleniumAutomation@1e1a0406</td></tr>
+<tr>
+<td title='com.sgtesting.testngseleniumautomation.CreateTasksTestngSeleniumAutomation.deleteCustomer()'><b>deleteCustomer</b><br>Test class: com.sgtesting.testngseleniumautomation.CreateTasksTestngSeleniumAutomation</td>
+<td></td>
+<td>6</td>
+<td>com.sgtesting.testngseleniumautomation.CreateTasksTestngSeleniumAutomation@7bab3f1a</td></tr>
+<tr>
+<td title='com.sgtesting.testngseleniumautomation.ModifyCustomerTestngSeleniumAutomation.modifyCustomer()'><b>modifyCustomer</b><br>Test class: com.sgtesting.testngseleniumautomation.ModifyCustomerTestngSeleniumAutomation<br>Parameters: Infosys is the trusted customer of ours and is in partnership with us since 2007</td>
+<td></td>
+<td>7</td>
+<td>com.sgtesting.testngseleniumautomation.ModifyCustomerTestngSeleniumAutomation@23c30a20</td></tr>
+<tr>
+<td title='com.sgtesting.testngseleniumautomation.ModifyUserTestngSeleniumAutomation.logIn()'><b>logIn</b><br>Test class: com.sgtesting.testngseleniumautomation.ModifyUserTestngSeleniumAutomation<br>Parameters: admin, manager</td>
+<td></td>
+<td>3</td>
+<td>com.sgtesting.testngseleniumautomation.ModifyUserTestngSeleniumAutomation@3cebbb30</td></tr>
+<tr>
+<td title='com.sgtesting.testngseleniumautomation.ModifyUserTestngSeleniumAutomation.modifyUser()'><b>modifyUser</b><br>Test class: com.sgtesting.testngseleniumautomation.ModifyUserTestngSeleniumAutomation<br>Parameters: RanganathGowda, KayiThimmanahalli</td>
+<td></td>
+<td>12</td>
+<td>com.sgtesting.testngseleniumautomation.ModifyUserTestngSeleniumAutomation@3cebbb30</td></tr>
+<tr>
+<td title='com.sgtesting.testngseleniumautomation.CreateTasksTestngSeleniumAutomation.logOut()'><b>logOut</b><br>Test class: com.sgtesting.testngseleniumautomation.CreateTasksTestngSeleniumAutomation</td>
+<td></td>
+<td>3</td>
+<td>com.sgtesting.testngseleniumautomation.CreateTasksTestngSeleniumAutomation@7bab3f1a</td></tr>
+<tr>
+<td title='com.sgtesting.testngseleniumautomation.CreateProjectTestngSeleniumAutomation.logOut()'><b>logOut</b><br>Test class: com.sgtesting.testngseleniumautomation.CreateProjectTestngSeleniumAutomation</td>
+<td></td>
+<td>3</td>
+<td>com.sgtesting.testngseleniumautomation.CreateProjectTestngSeleniumAutomation@36916eb0</td></tr>
+<tr>
+<td title='com.sgtesting.testngseleniumautomation.CreateTasksTestngSeleniumAutomation.deleteProject()'><b>deleteProject</b><br>Test class: com.sgtesting.testngseleniumautomation.CreateTasksTestngSeleniumAutomation</td>
+<td></td>
+<td>9</td>
+<td>com.sgtesting.testngseleniumautomation.CreateTasksTestngSeleniumAutomation@7bab3f1a</td></tr>
+<tr>
+<td title='com.sgtesting.testngseleniumautomation.ModifyProjectTestngSeleniumAutomation.logOut()'><b>logOut</b><br>Test class: com.sgtesting.testngseleniumautomation.ModifyProjectTestngSeleniumAutomation</td>
+<td></td>
+<td>3</td>
+<td>com.sgtesting.testngseleniumautomation.ModifyProjectTestngSeleniumAutomation@1e1a0406</td></tr>
+<tr>
+<td title='com.sgtesting.testngseleniumautomation.CreateProjectTestngSeleniumAutomation.createProject()'><b>createProject</b><br>Test class: com.sgtesting.testngseleniumautomation.CreateProjectTestngSeleniumAutomation<br>Parameters: Cloud Computing</td>
+<td></td>
+<td>9</td>
+<td>com.sgtesting.testngseleniumautomation.CreateProjectTestngSeleniumAutomation@36916eb0</td></tr>
+<tr>
+<td title='com.sgtesting.testngseleniumautomation.CreateProjectTestngSeleniumAutomation.createCustomer()'><b>createCustomer</b><br>Test class: com.sgtesting.testngseleniumautomation.CreateProjectTestngSeleniumAutomation<br>Parameters: Infosys</td>
+<td></td>
+<td>12</td>
+<td>com.sgtesting.testngseleniumautomation.CreateProjectTestngSeleniumAutomation@36916eb0</td></tr>
+<tr>
+<td title='com.sgtesting.testngseleniumautomation.ModifyCustomerTestngSeleniumAutomation.logIn()'><b>logIn</b><br>Test class: com.sgtesting.testngseleniumautomation.ModifyCustomerTestngSeleniumAutomation</td>
+<td></td>
+<td>5</td>
+<td>com.sgtesting.testngseleniumautomation.ModifyCustomerTestngSeleniumAutomation@23c30a20</td></tr>
+<tr>
+<td title='com.sgtesting.testngseleniumautomation.CreateProjectTestngSeleniumAutomation.deleteCustomer()'><b>deleteCustomer</b><br>Test class: com.sgtesting.testngseleniumautomation.CreateProjectTestngSeleniumAutomation</td>
+<td></td>
+<td>6</td>
+<td>com.sgtesting.testngseleniumautomation.CreateProjectTestngSeleniumAutomation@36916eb0</td></tr>
+<tr>
+<td title='com.sgtesting.testngseleniumautomation.CreateTasksTestngSeleniumAutomation.createCustomer()'><b>createCustomer</b><br>Test class: com.sgtesting.testngseleniumautomation.CreateTasksTestngSeleniumAutomation<br>Parameters: Infosys</td>
+<td></td>
+<td>12</td>
+<td>com.sgtesting.testngseleniumautomation.CreateTasksTestngSeleniumAutomation@7bab3f1a</td></tr>
+<tr>
+<td title='com.sgtesting.testngseleniumautomation.CreateUserTestngSeleniumAutomation.logOut()'><b>logOut</b><br>Test class: com.sgtesting.testngseleniumautomation.CreateUserTestngSeleniumAutomation</td>
+<td></td>
+<td>3</td>
+<td>com.sgtesting.testngseleniumautomation.CreateUserTestngSeleniumAutomation@437da279</td></tr>
+<tr>
+<td title='com.sgtesting.testngseleniumautomation.CreateUserTestngSeleniumAutomation.deleteUser()'><b>deleteUser</b><br>Test class: com.sgtesting.testngseleniumautomation.CreateUserTestngSeleniumAutomation</td>
+<td></td>
+<td>6</td>
+<td>com.sgtesting.testngseleniumautomation.CreateUserTestngSeleniumAutomation@437da279</td></tr>
+<tr>
+<td title='com.sgtesting.testngseleniumautomation.ModifyCustomerTestngSeleniumAutomation.logOut()'><b>logOut</b><br>Test class: com.sgtesting.testngseleniumautomation.ModifyCustomerTestngSeleniumAutomation</td>
+<td></td>
+<td>3</td>
+<td>com.sgtesting.testngseleniumautomation.ModifyCustomerTestngSeleniumAutomation@23c30a20</td></tr>
+<tr>
+<td title='com.sgtesting.testngseleniumautomation.ModifyUserTestngSeleniumAutomation.minimizeFlyOutWindow()'><b>minimizeFlyOutWindow</b><br>Test class: com.sgtesting.testngseleniumautomation.ModifyUserTestngSeleniumAutomation</td>
+<td></td>
+<td>5</td>
+<td>com.sgtesting.testngseleniumautomation.ModifyUserTestngSeleniumAutomation@3cebbb30</td></tr>
+<tr>
+<td title='com.sgtesting.testngseleniumautomation.CreateTasksTestngSeleniumAutomation.logIn()'><b>logIn</b><br>Test class: com.sgtesting.testngseleniumautomation.CreateTasksTestngSeleniumAutomation</td>
+<td></td>
+<td>5</td>
+<td>com.sgtesting.testngseleniumautomation.CreateTasksTestngSeleniumAutomation@7bab3f1a</td></tr>
+</table><p>
+</body>
+</html>

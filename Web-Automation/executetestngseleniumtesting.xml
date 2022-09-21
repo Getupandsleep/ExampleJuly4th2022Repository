@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="ActiTime Automation">
+	<test name="ActiTime end to end">
+		<packages>
+			<package name="com.sgtesting.testngseleniumautomation"></package>
+		</packages>
+	</test>
+</suite>
